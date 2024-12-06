@@ -4,6 +4,7 @@
 이 프로젝트는 Clush 개발자 채용 관련 과제 제출을 위하여 **Spring Boot**를 사용하여 개발된 **할 일(ToDo) 관리 API**입니다.  
 기본 CRUD 기능 외에도 추가적인 API를 구현했으며, MySQL을 활용한 데이터 저장 및 Swagger를 통한 API 명세 제공, 테스트 케이스를 작성하여 검증을 완료했습니다.
 
+![swagger](https://drive.google.com/file/d/1ds6bgaz5drd41kL9C7p6xfiyirN6eFm9/view?usp=drive_link)
 ---
 
 ## 주요 기능
@@ -104,4 +105,4 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 ![Swagger UI]([https://user-images.githubusercontent.com/12345678/20241207_051540.png](https://drive.google.com/file/d/1ds6bgaz5drd41kL9C7p6xfiyirN6eFm9/view?usp=drive_link))
 
 
-![swagger](https://github.com/user-attachments/assets/5a86bf10-63a1-4b14-8adf-0b17195c4495)
+![swagger](https://drive.google.com/file/d/1ds6bgaz5drd41kL9C7p6xfiyirN6eFm9/view?usp=drive_link)
