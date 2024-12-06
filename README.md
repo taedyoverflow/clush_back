@@ -1,7 +1,7 @@
 # ToDo API Project - Backend
 
 ## 프로젝트 설명
-이 프로젝트는 Spring Boot를 사용하여 개발된 **할 일(ToDo) 관리 API**입니다.  
+이 프로젝트는 Clush 개발자 채용을 위한 백엔드 과제 제출을 위하여 Spring Boot를 사용해 개발된 **할 일(ToDo) 관리 API**입니다.  
 기본 CRUD API와 함께, 추가 기능으로 작업 완료 상태 업데이트 및 완료된 작업 필터링 API를 제공합니다.  
 MySQL을 데이터 저장소로 사용하며, Swagger UI를 통해 API 명세를 확인할 수 있습니다.
 
@@ -71,10 +71,36 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 
 ## 4. 테스트케이스 작성 및 결과
 
-### 테스트 환경
-- JUnit 5 및 Mockito를 사용하여 테스트 케이스 작성.
-- CRUD 및 추가 API에 대한 단위 테스트 작성 및 검증.
+### 테스트코드 설명
+테스트 코드는 총 5개의 메서드로 구성되어 있으며, 각각의 테스트는 주요 API 기능을 검증합니다. `MockMvc`와 `Mockito`를 사용하여 컨트롤러의 동작을 독립적으로 테스트하였습니다.
+
+#### **테스트 목록**
+1. **`createTask_shouldAddNewTask`**
+   - `POST /api/tasks` 엔드포인트를 테스트.
+   - 새로운 작업(Task)을 추가하고 반환값을 검증.
+
+2. **`getTasks_shouldReturnAllTasks`**
+   - `GET /api/tasks` 엔드포인트를 테스트.
+   - 저장된 모든 작업(Task)의 목록을 반환하는 API 동작을 검증.
+
+3. **`deleteTask_shouldRemoveTask`**
+   - `DELETE /api/tasks/{id}` 엔드포인트를 테스트.
+   - 특정 ID의 작업(Task)을 삭제하는 동작을 검증.
+
+4. **`completeTask_shouldUpdateCompletedStatus`**
+   - `PUT /api/tasks/{id}/complete` 엔드포인트를 테스트.
+   - 특정 작업(Task)의 완료 상태를 업데이트하는 동작을 검증.
+
+5. **`getCompletedTasks_shouldReturnOnlyCompletedTasks`**
+   - `GET /api/tasks/completed` 엔드포인트를 테스트.
+   - 완료된 작업(Task)만 필터링하여 반환하는 API 동작을 검증.
+
+---
 
 ### 실행 방법
+테스트는 Gradle을 사용하여 실행할 수 있습니다:
 ```bash
 ./gradlew test
+
+### 테스트 스크린샷
+![Test](https://github.com/taedyoverflow/clush_back/blob/master/img/test.png?raw=true)
