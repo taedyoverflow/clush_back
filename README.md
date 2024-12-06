@@ -101,7 +101,7 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 
 ---
 
-## 6. 추가 기능 API
+## 5. 추가 기능 API
 
 ### 추가 기능 설명
 기본 CRUD 기능 외에 할 일 관리 API에 다음 두 가지 추가 기능을 구현했습니다:
@@ -157,4 +157,11 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 ### 추가 기능 관련 스크린샷(Show Completed Tasks 체크박스 참고)
 ![Front](https://github.com/taedyoverflow/clush_back/blob/master/img/front.png?raw=true)
 ![Front2](https://github.com/taedyoverflow/clush_back/blob/master/img/front2.png?raw=true)
+
+---
+
+## 6. DB(MySQL)
+
+### DB I/O 참고 스크린샷
+![DB](https://github.com/taedyoverflow/clush_back/blob/master/img/db.png?raw=true)
 
