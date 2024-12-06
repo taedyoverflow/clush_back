@@ -1,0 +1,1162 @@
+2024-12-07 03:36:02 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 10732 (C:\Users\Administrator\Desktop\demo\build\classes\java\main started by Administrator in C:\Users\Administrator\Desktop\demo)
+2024-12-07 03:36:02 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 03:36:03 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Filter 'requestLoggingFilter' configured for use
+2024-12-07 03:36:04 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 03:36:04 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 10 mappings in 'requestMappingHandlerMapping'
+2024-12-07 03:36:04 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-12-07 03:36:04 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 03:36:04 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.222 seconds (process running for 2.496)
+2024-12-07 03:36:09 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4fc84c92
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@322f84fd
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 03:36:09 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 03:36:09 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 03:58:36 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 03:58:36 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 03:58:36 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 03:58:36 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2024-12-07 03:58:36 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 03:58:36 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 03:58:36 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:01:55 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:01:55 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:01:55 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:01:55 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:01:55 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:01:55 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:01:55 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:01:55 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:01:55 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:01:55 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:01:55 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:01:55 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:01:55 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:01:55 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:02:52 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:02:52 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:02:52 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:02:52 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:02:52 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:02:52 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:02:52 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:02:52 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:02:52 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:02:52 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:02:52 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:02:52 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:02:52 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:02:52 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:03:02 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:03:02 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:03:02 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:03:02 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:03:02 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:03:02 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:03:02 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:03:02 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:03:02 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:03:02 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:03:02 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:03:02 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:03:02 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:03:02 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:04:33 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:04:33 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:04:33 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:04:33 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:04:33 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:04:33 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:04:33 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:04:40 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:04:40 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks", parameters={}
+2024-12-07 04:04:40 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 04:04:40 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:04:40 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:04:40 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:04:40 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/tasks", parameters={}
+2024-12-07 04:04:40 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 04:04:40 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=ㅇㅇ, priority=Low)]
+2024-12-07 04:04:40 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:04:40 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=ㅇㅇ, priority=Low)]
+2024-12-07 04:04:40 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:04:40 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=0:0:0:0:0:0:0:1, payload={"name":"ㅇㅇ","priority":"Low"}]
+2024-12-07 04:04:40 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:04:40 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:04:40 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:04:40 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:04:40 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=ㅇㅇ, priority=Low)]]
+2024-12-07 04:04:40 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:04:40 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:05:01 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks/1, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:05:01 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks/1", parameters={}
+2024-12-07 04:05:01 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 04:05:01 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:05:01 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks/1, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:05:01 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [DELETE /api/tasks/1, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:05:01 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - DELETE "/api/tasks/1", parameters={}
+2024-12-07 04:05:01 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 04:05:01 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:05:01 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2024-12-07 04:05:01 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:05:01 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [DELETE /api/tasks/1, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:05:01 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:05:01 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:05:01 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:05:01 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:05:01 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:05:01 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:05:01 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:05:12 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:05:12 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/tasks", parameters={}
+2024-12-07 04:05:12 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 04:05:12 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=ㅇㅇ, priority=Medium)]
+2024-12-07 04:05:12 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:05:12 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=2, name=ㅇㅇ, priority=Medium)]
+2024-12-07 04:05:12 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:05:12 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=0:0:0:0:0:0:0:1, payload={"name":"ㅇㅇ","priority":"Medium"}]
+2024-12-07 04:05:12 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:05:12 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:05:12 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:05:12 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:05:12 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=2, name=ㅇㅇ, priority=Medium)]]
+2024-12-07 04:05:12 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:05:12 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:06:11 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks/2, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:06:11 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks/2", parameters={}
+2024-12-07 04:06:11 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 04:06:11 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:06:11 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks/2, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:06:11 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [DELETE /api/tasks/2, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:06:11 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - DELETE "/api/tasks/2", parameters={}
+2024-12-07 04:06:11 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 04:06:11 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:06:11 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2024-12-07 04:06:11 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:06:11 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [DELETE /api/tasks/2, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:06:11 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:06:11 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:06:11 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:06:11 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:06:11 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:06:11 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:06:11 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:07:50 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:07:50 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:07:50 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:07:50 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:07:50 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:07:50 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:07:50 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:11:32 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:11:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/tasks", parameters={}
+2024-12-07 04:11:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 04:11:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=안녕, priority=Medium)]
+2024-12-07 04:11:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:11:32 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=3, name=안녕, priority=Medium)]
+2024-12-07 04:11:32 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:11:32 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=0:0:0:0:0:0:0:1, payload={"name":"안녕","priority":"Medium"}]
+2024-12-07 04:11:32 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:11:32 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:11:32 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:11:32 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:11:32 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=3, name=안녕, priority=Medium)]]
+2024-12-07 04:11:32 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:11:32 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:12:33 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks/3, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:12:33 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks/3", parameters={}
+2024-12-07 04:12:33 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 04:12:33 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:12:33 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks/3, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:12:33 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [DELETE /api/tasks/3, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:12:33 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - DELETE "/api/tasks/3", parameters={}
+2024-12-07 04:12:33 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 04:12:33 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:12:33 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2024-12-07 04:12:33 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:12:33 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [DELETE /api/tasks/3, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:12:33 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:12:33 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:12:33 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:12:33 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:12:33 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:12:33 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:12:33 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:25:57 [Test worker] INFO  com.example.demo.TaskControllerTest - Starting TaskControllerTest using Java 17.0.12 with PID 3608 (started by Administrator in C:\Users\Administrator\Desktop\demo)
+2024-12-07 04:25:57 [Test worker] INFO  com.example.demo.TaskControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 04:25:57 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@468be356
+2024-12-07 04:25:58 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 04:25:58 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2024-12-07 04:25:58 [Test worker] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 04:25:58 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 04:25:58 [Test worker] INFO  com.example.demo.TaskControllerTest - Started TaskControllerTest in 1.88 seconds (process running for 2.594)
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=127.0.0.1]
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Completed Task 1, priority=High, completed=true), Task(id=2, name=Completed Task 2, (truncated)...]
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=127.0.0.1]
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=127.0.0.1]
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Task 1, priority=High, completed=true)]
+2024-12-07 04:25:59 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=127.0.0.1, payload=true]
+2024-12-07 04:25:59 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@468be356, started on Sat Dec 07 04:25:57 KST 2024
+2024-12-07 04:29:56 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 6364 (C:\Users\Administrator\Desktop\demo\build\classes\java\main started by Administrator in C:\Users\Administrator\Desktop\demo)
+2024-12-07 04:29:56 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 04:29:57 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Filter 'requestLoggingFilter' configured for use
+2024-12-07 04:29:58 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 04:29:58 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2024-12-07 04:29:58 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-12-07 04:29:58 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 04:29:58 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.287 seconds (process running for 2.549)
+2024-12-07 04:33:53 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 4224 (C:\Users\Administrator\Desktop\demo\build\classes\java\main started by Administrator in C:\Users\Administrator\Desktop\demo)
+2024-12-07 04:33:53 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 04:33:54 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Filter 'requestLoggingFilter' configured for use
+2024-12-07 04:33:55 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 04:33:55 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2024-12-07 04:33:55 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-12-07 04:33:55 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 04:33:55 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.283 seconds (process running for 2.561)
+2024-12-07 04:35:06 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3df54fd5
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3cc548f6
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 04:35:06 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /swagger-ui.html, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui.html", parameters={}
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#redirectToUi(HttpServletRequest)
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 302 FOUND
+2024-12-07 04:35:06 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /swagger-ui.html, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /swagger-ui/index.html, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui/index.html", parameters={}
+2024-12-07 04:35:06 [http-nio-8080-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-07 04:35:06 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2024-12-07 04:35:06 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /swagger-ui/index.html, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /swagger-ui/swagger-ui.css, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui/swagger-ui.css", parameters={}
+2024-12-07 04:35:06 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-07 04:35:06 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2024-12-07 04:35:06 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /swagger-ui/swagger-ui.css, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /swagger-ui/swagger-initializer.js, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-12-07 04:35:06 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /swagger-ui/index.css, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /swagger-ui/swagger-ui-standalone-preset.js, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui/index.css", parameters={}
+2024-12-07 04:35:06 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2024-12-07 04:35:06 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /swagger-ui/swagger-ui-bundle.js, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-07 04:35:06 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2024-12-07 04:35:06 [http-nio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-07 04:35:06 [http-nio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-07 04:35:06 [http-nio-8080-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-07 04:35:06 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2024-12-07 04:35:06 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /swagger-ui/index.css, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2024-12-07 04:35:06 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /swagger-ui/swagger-ui-standalone-preset.js, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2024-12-07 04:35:06 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /swagger-ui/swagger-ui-bundle.js, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:35:06 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /swagger-ui/swagger-initializer.js, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /v3/api-docs/swagger-config, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v3/api-docs/swagger-config", parameters={}
+2024-12-07 04:35:06 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-12-07 04:35:06 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-12-07 04:35:06 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-12-07 04:35:06 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:35:06 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /v3/api-docs/swagger-config, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /v3/api-docs, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:35:06 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v3/api-docs", parameters={}
+2024-12-07 04:35:06 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-12-07 04:35:06 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-12-07 04:35:06 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-12-07 04:35:06 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:35:06 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /v3/api-docs, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:38:25 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 13904 (C:\Users\Administrator\Desktop\demo\build\classes\java\main started by Administrator in C:\Users\Administrator\Desktop\demo)
+2024-12-07 04:38:25 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 04:38:25 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Filter 'requestLoggingFilter' configured for use
+2024-12-07 04:38:27 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 04:38:27 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2024-12-07 04:38:27 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-12-07 04:38:27 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 04:38:27 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.303 seconds (process running for 2.567)
+2024-12-07 04:38:42 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5ff8d76f
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3fed0c04
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 04:38:42 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /swagger-ui/index.html, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui/index.html", parameters={}
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2024-12-07 04:38:42 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /swagger-ui/index.html, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:38:42 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /swagger-ui/swagger-initializer.js, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:38:42 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-12-07 04:38:42 [http-nio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-07 04:38:42 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:38:42 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /swagger-ui/swagger-initializer.js, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:38:42 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /v3/api-docs/swagger-config, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:38:42 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v3/api-docs/swagger-config", parameters={}
+2024-12-07 04:38:42 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-12-07 04:38:42 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-12-07 04:38:42 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-12-07 04:38:42 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /swagger-ui/favicon-32x32.png, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:38:42 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui/favicon-32x32.png", parameters={}
+2024-12-07 04:38:42 [http-nio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-12-07 04:38:42 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2024-12-07 04:38:42 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /swagger-ui/favicon-32x32.png, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:38:42 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:38:42 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /v3/api-docs/swagger-config, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:38:42 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /v3/api-docs, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:38:42 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v3/api-docs", parameters={}
+2024-12-07 04:38:42 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-12-07 04:38:42 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-12-07 04:38:42 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-12-07 04:38:42 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:38:42 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /v3/api-docs, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:40:46 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:40:46 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:40:46 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:40:46 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:40:46 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:40:46 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:40:46 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks", parameters={}
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/tasks", parameters={}
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=Clush 프론트엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:13 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=0:0:0:0:0:0:0:1, payload={"name":"Clush 프론트엔드 과제 제출","priority":"High"}]
+2024-12-07 04:41:17 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:17 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/tasks", parameters={}
+2024-12-07 04:41:17 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 04:41:17 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=Clush 프론트엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:41:17 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:41:17 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=2, name=Clush 프론트엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:41:17 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:17 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=0:0:0:0:0:0:0:1, payload={"name":"Clush 프론트엔드 과제 제출","priority":"High"}]
+2024-12-07 04:41:17 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:17 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:41:17 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:41:17 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:41:17 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=2, name=Clush 프론트엔드 과제  (truncated)...]
+2024-12-07 04:41:17 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:17 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:20 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks/2, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks/2", parameters={}
+2024-12-07 04:41:20 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 04:41:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:20 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks/2, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:20 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [DELETE /api/tasks/2, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:20 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - DELETE "/api/tasks/2", parameters={}
+2024-12-07 04:41:20 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 04:41:20 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:41:20 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2024-12-07 04:41:20 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:20 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [DELETE /api/tasks/2, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:20 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:20 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:41:20 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:41:20 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:41:20 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false)]]
+2024-12-07 04:41:20 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:20 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:43 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:43 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/tasks", parameters={}
+2024-12-07 04:41:43 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 04:41:43 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=Clush 백엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:41:43 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:41:43 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=3, name=Clush 백엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:41:43 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:43 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=0:0:0:0:0:0:0:1, payload={"name":"Clush 백엔드 과제 제출","priority":"High"}]
+2024-12-07 04:41:43 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:43 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:41:43 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:41:43 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:41:43 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:41:43 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:43 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:54 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:54 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/tasks", parameters={}
+2024-12-07 04:41:54 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 04:41:54 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=다이어트, priority=Low, completed=false)]
+2024-12-07 04:41:54 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:41:54 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=4, name=다이어트, priority=Low, completed=false)]
+2024-12-07 04:41:54 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:54 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=0:0:0:0:0:0:0:1, payload={"name":"다이어트","priority":"Low"}]
+2024-12-07 04:41:54 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:41:54 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:41:54 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:41:54 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:41:54 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:41:54 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:41:54 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:00 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:00 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks/1/complete", parameters={}
+2024-12-07 04:42:00 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:00 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:00 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:00 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:00 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:00 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:01 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:01 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:01 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:02 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:02 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:03 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:03 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:03 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:03 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:03 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:03 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:03 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:03 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:03 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:04 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:04 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:04 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:09 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks/1, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:09 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks/1", parameters={}
+2024-12-07 04:42:09 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#updateTask(Long, Task)
+2024-12-07 04:42:09 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:09 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks/1, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:09 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:09 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1", parameters={}
+2024-12-07 04:42:09 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#updateTask(Long, Task)
+2024-12-07 04:42:09 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=Clush 프론트엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:42:09 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:09 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:42:09 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:09 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1, client=0:0:0:0:0:0:0:1, payload={"name":"Clush 프론트엔드 과제 제출","priority":"High"}]
+2024-12-07 04:42:09 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:09 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:42:09 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:42:09 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:09 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:42:09 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:09 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:12 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:12 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:12 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:15 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:42:15 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:42:15 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:15 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:42:15 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:15 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:16 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:16 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:18 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:18 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:42:18 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:42:18 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:18 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:42:18 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:18 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:19 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:19 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:19 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:21 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:21 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:21 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:23 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:23 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:23 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:23 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:23 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:23 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:23 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:23 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:23 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:24 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:24 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks/completed", parameters={}
+2024-12-07 04:42:24 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 04:42:24 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:24 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:42:24 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:24 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:26 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:26 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:42:26 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:42:26 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:26 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:42:26 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:26 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:27 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:27 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:27 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:29 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks/3/complete", parameters={}
+2024-12-07 04:42:29 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:29 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:29 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={masked}
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:29 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:29 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/3 (truncated)...]
+2024-12-07 04:42:29 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={masked}
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:29 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:29 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/3 (truncated)...]
+2024-12-07 04:42:29 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={masked}
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:30 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:30 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/3 (truncated)...]
+2024-12-07 04:42:30 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={masked}
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:31 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:31 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/3 (truncated)...]
+2024-12-07 04:42:31 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={masked}
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:31 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:31 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/3 (truncated)...]
+2024-12-07 04:42:31 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={masked}
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:32 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:32 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/3 (truncated)...]
+2024-12-07 04:42:32 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={masked}
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:32 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:32 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/3 (truncated)...]
+2024-12-07 04:42:32 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:33 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:33 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks/completed", parameters={}
+2024-12-07 04:42:33 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 04:42:33 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:33 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:42:33 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:33 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:35 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:35 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:42:35 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:42:35 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:35 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:42:35 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:42:35 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={masked}
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:37 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:37 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/3 (truncated)...]
+2024-12-07 04:42:37 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={masked}
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:37 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:37 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/3 (truncated)...]
+2024-12-07 04:42:37 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={masked}
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:37 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:37 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/3 (truncated)...]
+2024-12-07 04:42:37 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:41 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:41 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:41 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:41 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:41 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:41 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:42:48 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:42:48 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:42:48 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={masked}
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [1] in public com.example.demo.Task com.example.demo.TaskController.completeTask(java.lang.Long,boolean): Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+2024-12-07 04:43:31 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 415 UNSUPPORTED_MEDIA_TYPE
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for PUT "/error", parameters={masked}
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sat Dec 07 04:43:31 KST 2024, status=415, error=Unsupported Media Type, path=/api/tasks/1 (truncated)...]
+2024-12-07 04:43:31 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 415
+2024-12-07 04:45:24 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:24 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:45:24 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:45:24 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:45:24 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:45:24 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:24 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:29 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:29 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:45:29 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:45:29 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:45:29 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:45:29 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:29 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:31 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:31 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks/1/complete", parameters={}
+2024-12-07 04:45:31 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:45:31 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:31 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:31 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:31 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={}
+2024-12-07 04:45:31 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:45:31 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 04:45:31 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:45:31 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true)]
+2024-12-07 04:45:31 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:31 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1, payload=true]
+2024-12-07 04:45:35 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:35 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:45:35 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:45:35 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:45:35 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:45:35 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:35 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:39 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:39 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks/completed", parameters={}
+2024-12-07 04:45:39 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 04:45:39 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:45:39 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true)]]
+2024-12-07 04:45:39 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:39 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:42 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:42 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:45:42 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:45:42 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:45:42 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:45:42 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:42 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:43 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:43 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks/3/complete", parameters={}
+2024-12-07 04:45:43 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:45:43 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:43 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:43 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:43 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={}
+2024-12-07 04:45:43 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:45:43 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 04:45:43 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:45:43 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=3, name=Clush 백엔드 과제 제출, priority=High, completed=true)]
+2024-12-07 04:45:43 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:43 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1, payload=true]
+2024-12-07 04:45:50 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:50 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks/completed", parameters={}
+2024-12-07 04:45:50 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 04:45:50 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:45:50 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:45:50 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:50 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:54 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:54 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={}
+2024-12-07 04:45:54 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:45:54 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [false]
+2024-12-07 04:45:54 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:45:54 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=3, name=Clush 백엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:45:54 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:54 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1, payload=false]
+2024-12-07 04:45:54 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:45:54 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks/completed", parameters={}
+2024-12-07 04:45:54 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 04:45:54 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:45:54 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true)]]
+2024-12-07 04:45:54 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:45:54 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:09 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:09 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:09 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:09 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:09 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:09 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:09 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:12 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:12 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:12 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:12 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:12 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:12 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:12 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:14 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:14 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={}
+2024-12-07 04:53:14 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:14 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [false]
+2024-12-07 04:53:14 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:14 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:53:14 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:14 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1, payload=false]
+2024-12-07 04:53:19 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:19 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks/completed", parameters={}
+2024-12-07 04:53:19 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 04:53:19 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:19 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[]]
+2024-12-07 04:53:19 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:19 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:20 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:20 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:20 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:20 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:20 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:53:20 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:20 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:22 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:22 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={}
+2024-12-07 04:53:22 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:22 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 04:53:22 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:22 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true)]
+2024-12-07 04:53:22 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:22 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1, payload=true]
+2024-12-07 04:53:22 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:22 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:22 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:22 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:22 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:22 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:22 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:24 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:24 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={}
+2024-12-07 04:53:24 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:24 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [false]
+2024-12-07 04:53:24 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:24 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:53:24 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:24 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1, payload=false]
+2024-12-07 04:53:24 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:24 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:24 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:24 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:53:24 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:24 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:24 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:24 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={}
+2024-12-07 04:53:24 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:24 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 04:53:24 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:24 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true)]
+2024-12-07 04:53:24 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:24 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1, payload=true]
+2024-12-07 04:53:24 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:24 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:24 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:24 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:24 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:24 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:24 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:25 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:25 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={}
+2024-12-07 04:53:25 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:25 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 04:53:25 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:25 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=3, name=Clush 백엔드 과제 제출, priority=High, completed=true)]
+2024-12-07 04:53:25 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:25 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1, payload=true]
+2024-12-07 04:53:25 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:25 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:25 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:25 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:25 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:25 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:25 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:25 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [OPTIONS /api/tasks/4/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:25 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tasks/4/complete", parameters={}
+2024-12-07 04:53:25 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:25 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:25 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [OPTIONS /api/tasks/4/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:25 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/4/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:25 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/4/complete", parameters={}
+2024-12-07 04:53:25 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:25 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 04:53:25 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:25 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=4, name=다이어트, priority=Low, completed=true)]
+2024-12-07 04:53:25 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:25 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/4/complete, client=0:0:0:0:0:0:0:1, payload=true]
+2024-12-07 04:53:25 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:25 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:25 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:25 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:25 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:25 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:25 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:27 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/4/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:27 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/4/complete", parameters={}
+2024-12-07 04:53:27 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:27 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [false]
+2024-12-07 04:53:27 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:27 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=4, name=다이어트, priority=Low, completed=false)]
+2024-12-07 04:53:27 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:27 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/4/complete, client=0:0:0:0:0:0:0:1, payload=false]
+2024-12-07 04:53:27 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:27 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:27 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:27 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:27 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:27 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:27 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:27 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:27 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={}
+2024-12-07 04:53:27 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:27 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [false]
+2024-12-07 04:53:27 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:27 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=3, name=Clush 백엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:53:27 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:27 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1, payload=false]
+2024-12-07 04:53:27 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:27 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:27 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:27 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:27 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:27 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:27 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:28 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:28 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={}
+2024-12-07 04:53:28 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:28 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [false]
+2024-12-07 04:53:28 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:28 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false)]
+2024-12-07 04:53:28 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:28 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1, payload=false]
+2024-12-07 04:53:28 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:28 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:28 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:28 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:28 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:53:28 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:28 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:29 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/4/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:29 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/4/complete", parameters={}
+2024-12-07 04:53:29 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:29 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 04:53:29 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:29 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=4, name=다이어트, priority=Low, completed=true)]
+2024-12-07 04:53:29 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:29 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/4/complete, client=0:0:0:0:0:0:0:1, payload=true]
+2024-12-07 04:53:29 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:29 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:29 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:29 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:29 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:53:29 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:29 [http-nio-8080-exec-10] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:30 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/4/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:30 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/4/complete", parameters={}
+2024-12-07 04:53:30 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:30 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [false]
+2024-12-07 04:53:30 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:30 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=4, name=다이어트, priority=Low, completed=false)]
+2024-12-07 04:53:30 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:30 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/4/complete, client=0:0:0:0:0:0:0:1, payload=false]
+2024-12-07 04:53:30 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:30 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:30 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:30 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:30 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=false), Task(id=3, name=Clush 백엔드 과제 제출 (truncated)...]
+2024-12-07 04:53:30 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:30 [http-nio-8080-exec-8] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:31 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:31 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/1/complete", parameters={}
+2024-12-07 04:53:31 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:31 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 04:53:31 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:31 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true)]
+2024-12-07 04:53:31 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:31 [http-nio-8080-exec-9] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=0:0:0:0:0:0:0:1, payload=true]
+2024-12-07 04:53:31 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:31 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:31 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:31 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:31 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:31 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:31 [http-nio-8080-exec-7] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:31 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:31 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/tasks/3/complete", parameters={}
+2024-12-07 04:53:31 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 04:53:31 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 04:53:31 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:31 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=3, name=Clush 백엔드 과제 제출, priority=High, completed=true)]
+2024-12-07 04:53:31 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:31 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/3/complete, client=0:0:0:0:0:0:0:1, payload=true]
+2024-12-07 04:53:31 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:31 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:31 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:31 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:31 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:31 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:31 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:50 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:50 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks/completed", parameters={}
+2024-12-07 04:53:50 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 04:53:50 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:50 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:50 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:50 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:50 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:53:50 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks", parameters={}
+2024-12-07 04:53:50 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 04:53:50 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:53:50 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:53:50 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:53:50 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:56:29 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 04:56:29 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tasks/completed", parameters={}
+2024-12-07 04:56:29 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 04:56:29 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-12-07 04:56:29 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
+2024-12-07 04:56:29 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-12-07 04:56:29 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
