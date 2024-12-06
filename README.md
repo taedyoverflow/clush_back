@@ -101,4 +101,60 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 
 ---
 
+## 6. 추가 기능 API
+
+### 추가 기능 설명
+기본 CRUD 기능 외에 할 일 관리 API에 다음 두 가지 추가 기능을 구현했습니다:
+1. **할 일 완료 상태 업데이트 API**
+   - **엔드포인트**: `PUT /api/tasks/{id}/complete`
+   - **기능**:
+     - 특정 작업(Task)의 완료 상태를 `true`(완료) 또는 `false`(미완료)로 업데이트합니다.
+     - 프론트엔드의 체크박스를 통해 완료 상태를 쉽게 관리할 수 있도록 설계되었습니다.
+   - **예제 요청**:
+     ```http
+     PUT /api/tasks/1/complete
+     Content-Type: application/json
+     
+     true
+     ```
+   - **예제 응답**:
+     ```json
+     {
+       "id": 1,
+       "name": "Task 1",
+       "priority": "High",
+       "completed": true
+     }
+     ```
+
+2. **완료된 작업 조회 API**
+   - **엔드포인트**: `GET /api/tasks/completed`
+   - **기능**:
+     - 완료된 작업(Task)만 필터링하여 반환합니다.
+     - 데이터를 정리하거나 완료된 작업을 별도로 관리하고자 할 때 유용합니다.
+   - **예제 요청**:
+     ```http
+     GET /api/tasks/completed
+     ```
+   - **예제 응답**:
+     ```json
+     [
+       {
+         "id": 2,
+         "name": "Completed Task 1",
+         "priority": "Medium",
+         "completed": true
+       },
+       {
+         "id": 3,
+         "name": "Completed Task 2",
+         "priority": "Low",
+         "completed": true
+       }
+     ]
+     ```
+
+### 추가 기능 스크린샷
+![Front](https://github.com/taedyoverflow/clush_back/blob/master/img/front.png?raw=true)
+![Front2](https://github.com/taedyoverflow/clush_back/blob/master/img/front2.png?raw=true)
 
