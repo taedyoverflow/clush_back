@@ -72,7 +72,8 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 ## 4. 테스트케이스 작성 및 결과
 
 ### 테스트코드 설명
-테스트 코드는 총 5개의 메서드로 구성되어 있으며, 각각의 테스트는 주요 API 기능을 검증합니다. `MockMvc`와 `Mockito`를 사용하여 컨트롤러의 동작을 독립적으로 테스트하였습니다.
+테스트 코드는 총 5개의 메서드로 구성되어 있으며, 각각의 테스트는 주요 API 기능을 검증합니다.  
+**JUnit 5**와 **MockMvc**, **Mockito**를 사용하여 컨트롤러의 동작을 독립적으로 테스트하였습니다.
 
 #### **테스트 목록**
 1. **`createTask_shouldAddNewTask`**
@@ -97,3 +98,7 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 
 ### 테스트 스크린샷
 ![Test](https://github.com/taedyoverflow/clush_back/blob/master/img/test.png?raw=true)
+
+---
+
+
