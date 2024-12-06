@@ -65,7 +65,7 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 - **주소**: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ### API 스크린샷
-![Swagger UI]([<API-IMAGE-URL](https://drive.google.com/file/d/1ds6bgaz5drd41kL9C7p6xfiyirN6eFm9/view?usp=drive_link)>)
+![Swagger UI](https://github.com/taedyoverflow/clush_back/blob/master/img/swagger.png?raw=true)
 
 ---
 
