@@ -103,7 +103,7 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 - **주소**: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ### API 스크린샷
-![Swagger UI](./swagger.png)
+![swagger](https://github.com/user-attachments/assets/5a86bf10-63a1-4b14-8adf-0b17195c4495)
 
 ---
 
