@@ -95,12 +95,5 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
    - `GET /api/tasks/completed` 엔드포인트를 테스트.
    - 완료된 작업(Task)만 필터링하여 반환하는 API 동작을 검증.
 
----
-
-### 실행 방법
-테스트는 Gradle을 사용하여 실행할 수 있습니다:
-```bash
-./gradlew test
-
 ### 테스트 스크린샷
 ![Test](https://github.com/taedyoverflow/clush_back/blob/master/img/test.png?raw=true)
