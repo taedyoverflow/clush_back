@@ -1,4 +1,4 @@
-# ToDo API Project - Backend
+# Clush ToDo API Project - Backend
 
 ## 프로젝트 설명
 이 프로젝트는 Clush 개발자 채용을 위한 백엔드 과제 제출을 위하여 Spring Boot를 사용해 개발된 **할 일(ToDo) 관리 API**입니다.  
