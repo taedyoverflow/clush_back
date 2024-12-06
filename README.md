@@ -154,7 +154,7 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
      ]
      ```
 
-### 추가 기능 스크린샷
+### 추가 기능 관련 스크린샷(Show Completed Tasks 체크박스 참고)
 ![Front](https://github.com/taedyoverflow/clush_back/blob/master/img/front.png?raw=true)
 ![Front2](https://github.com/taedyoverflow/clush_back/blob/master/img/front2.png?raw=true)
 
