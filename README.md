@@ -94,8 +94,6 @@ INSERT INTO task (name, priority, completed) VALUES ('다이어트', 'Low', FALS
 5. **Spring Boot Starter Test**  
    JUnit 및 Mockito를 사용한 단위 테스트 및 통합 테스트 지원.
 
----
-
 ## 4. API 명세
 
 Swagger UI를 통해 API 명세를 확인할 수 있습니다:
@@ -103,62 +101,4 @@ Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 - **주소**: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ### API 스크린샷
-![swagger](https://github.com/user-attachments/assets/5a86bf10-63a1-4b14-8adf-0b17195c4495)
-
----
-
-5. 테스트 케이스 작성 및 결과
-테스트 환경
-JUnit 5 및 Mockito를 사용하여 테스트 케이스 작성.
-주요 API 테스트:
-작업 추가, 수정, 삭제 테스트.
-완료 상태 업데이트 테스트.
-완료된 작업 조회 테스트.
-실행 방법
-Gradle로 테스트 실행:
-
-bash
-코드 복사
-./gradlew test
-테스트 결과
-총 테스트 케이스: 5개
-성공한 테스트 케이스: 5개
-실패한 테스트 케이스: 0개
-테스트 리포트는 다음 경로에서 확인 가능합니다:
-
-bash
-코드 복사
-build/reports/tests/test/index.html
-6. 추가 기능 API 구현
-추가 기능
-작업 완료 상태 업데이트:
-
-API 엔드포인트: PUT /api/tasks/{id}/complete
-완료 상태를 true 또는 false로 변경.
-프론트엔드에서 체크박스를 통해 완료 상태를 관리.
-완료된 작업 조회:
-
-API 엔드포인트: GET /api/tasks/completed
-완료된 작업만 필터링하여 반환.
-7. 데이터베이스 스키마 및 초기 데이터
-데이터베이스 스키마
-sql
-코드 복사
-CREATE TABLE task (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    priority VARCHAR(50) NOT NULL,
-    completed BOOLEAN DEFAULT FALSE
-);
-초기 데이터 삽입
-sql
-코드 복사
-INSERT INTO task (name, priority, completed) VALUES ('Clush 프론트엔드 과제 제출', 'High', TRUE);
-INSERT INTO task (name, priority, completed) VALUES ('Clush 백엔드 과제 제출', 'High', TRUE);
-INSERT INTO task (name, priority, completed) VALUES ('다이어트', 'Low', FALSE);
-과제 요구사항 체크리스트
- 기본 CRUD API 구현
- Swagger를 통한 API 명세 제공
- 테스트 케이스 작성 및 통과
- 추가 API 구현 (PUT /complete, GET /completed)
- MySQL 연동 및 DB 스키마 제공
+![Swagger UI](https://user-images.githubusercontent.com/12345678/20241207_051540.png)
