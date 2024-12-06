@@ -1,7 +1,7 @@
 # ToDo API Project
 
 ## 프로젝트 설명
-이 프로젝트는 **Spring Boot**를 사용하여 개발된 **할 일(ToDo) 관리 API**입니다. 기본 CRUD 기능과 추가 기능(API)을 포함하며, 프론트엔드와 통신하기 위한 RESTful 서비스를 제공합니다.
+이 프로젝트는 Clush 개발자 채용 관련 과제 제출을 위하여 **Spring Boot**를 사용하여 개발된 **할 일(ToDo) 관리 API**입니다. 기본 CRUD 기능과 추가 기능(API)을 포함하며, 프론트엔드와 통신하기 위한 RESTful 서비스를 제공합니다.
 
 ---
 
