@@ -27,7 +27,57 @@ public class TaskControllerTest {
     @Autowired
     private ObjectMapper objectMapper;
 
-    // 완료 상태 업데이트 테스트
+    @Test
+    void createTask_shouldAddNewTask() throws Exception {
+        Task newTask = new Task();
+        newTask.setName("New Task");
+        newTask.setPriority("Low");
+        newTask.setCompleted(false);
+
+        when(repository.save(any(Task.class))).thenReturn(newTask);
+
+        mockMvc.perform(post("/api/tasks")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(newTask)))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.name").value("New Task"))
+                .andExpect(jsonPath("$.priority").value("Low"))
+                .andExpect(jsonPath("$.completed").value(false));
+    }
+
+    @Test
+    void getTasks_shouldReturnAllTasks() throws Exception {
+        Task task1 = new Task();
+        task1.setId(1L);
+        task1.setName("Task 1");
+        task1.setPriority("High");
+
+        Task task2 = new Task();
+        task2.setId(2L);
+        task2.setName("Task 2");
+        task2.setPriority("Medium");
+
+        when(repository.findAll()).thenReturn(Arrays.asList(task1, task2));
+
+        mockMvc.perform(get("/api/tasks"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.length()").value(2))
+                .andExpect(jsonPath("$[0].name").value("Task 1"))
+                .andExpect(jsonPath("$[1].priority").value("Medium"));
+    }
+
+    @Test
+    void deleteTask_shouldRemoveTask() throws Exception {
+        Long taskId = 1L;
+
+        doNothing().when(repository).deleteById(taskId);
+
+        mockMvc.perform(delete("/api/tasks/" + taskId))
+                .andExpect(status().isOk());
+
+        verify(repository, times(1)).deleteById(taskId);
+    }
+
     @Test
     void completeTask_shouldUpdateCompletedStatus() throws Exception {
         Task existingTask = new Task();
@@ -52,7 +102,6 @@ public class TaskControllerTest {
                 .andExpect(jsonPath("$.completed").value(true));
     }
 
-    // 완료된 작업 필터링 테스트
     @Test
     void getCompletedTasks_shouldReturnOnlyCompletedTasks() throws Exception {
         Task completedTask1 = new Task();

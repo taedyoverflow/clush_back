@@ -1160,3 +1160,147 @@
 2024-12-07 04:56:29 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Clush 프론트엔드 과제 제출, priority=High, completed=true), Task(id=3, name=Clush 백엔드 과제 제출, (truncated)...]
 2024-12-07 04:56:29 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
 2024-12-07 04:56:29 [http-nio-8080-exec-4] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=0:0:0:0:0:0:0:1]
+2024-12-07 06:28:30 [Test worker] INFO  com.example.demo.TaskControllerTest - Starting TaskControllerTest using Java 17.0.12 with PID 6400 (started by Administrator in C:\Users\Administrator\Desktop\clush_back)
+2024-12-07 06:28:30 [Test worker] INFO  com.example.demo.TaskControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 06:28:30 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@468be356
+2024-12-07 06:28:31 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 06:28:31 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2024-12-07 06:28:31 [Test worker] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 06:28:31 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 06:28:31 [Test worker] INFO  com.example.demo.TaskControllerTest - Started TaskControllerTest in 1.811 seconds (process running for 2.527)
+2024-12-07 06:28:31 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=127.0.0.1]
+2024-12-07 06:28:31 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 06:28:31 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:28:31 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Completed Task 1, priority=High, completed=true), Task(id=2, name=Completed Task 2, (truncated)...]
+2024-12-07 06:28:31 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=127.0.0.1]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=127.0.0.1]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Task 1, priority=High, completed=true)]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=127.0.0.1, payload=true]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=127.0.0.1]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=New Task, priority=Low, completed=false)]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=null, name=New Task, priority=Low, completed=false)]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=127.0.0.1, payload={"id":null,"name":"New Task","priority":"Low","completed":false}]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [DELETE /api/tasks/1, client=127.0.0.1]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [DELETE /api/tasks/1, client=127.0.0.1]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=127.0.0.1]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Task 1, priority=High, completed=false), Task(id=2, name=Task 2, priority=Medium, c (truncated)...]
+2024-12-07 06:28:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=127.0.0.1]
+2024-12-07 06:28:32 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@468be356, started on Sat Dec 07 06:28:30 KST 2024
+2024-12-07 06:33:44 [Test worker] INFO  com.example.demo.TaskControllerTest - Starting TaskControllerTest using Java 17.0.12 with PID 2192 (started by Administrator in C:\Users\Administrator\Desktop\clush_back)
+2024-12-07 06:33:44 [Test worker] INFO  com.example.demo.TaskControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 06:33:44 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@468be356
+2024-12-07 06:33:45 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 06:33:45 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2024-12-07 06:33:45 [Test worker] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 06:33:45 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 06:33:45 [Test worker] INFO  com.example.demo.TaskControllerTest - Started TaskControllerTest in 1.922 seconds (process running for 2.639)
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=127.0.0.1]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Completed Task 1, priority=High, completed=true), Task(id=2, name=Completed Task 2, (truncated)...]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=127.0.0.1]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=127.0.0.1]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Task 1, priority=High, completed=true)]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=127.0.0.1, payload=true]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=127.0.0.1]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=New Task, priority=Low, completed=false)]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=null, name=New Task, priority=Low, completed=false)]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=127.0.0.1, payload={"id":null,"name":"New Task","priority":"Low","completed":false}]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [DELETE /api/tasks/1, client=127.0.0.1]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [DELETE /api/tasks/1, client=127.0.0.1]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=127.0.0.1]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Task 1, priority=High, completed=false), Task(id=2, name=Task 2, priority=Medium, c (truncated)...]
+2024-12-07 06:33:46 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=127.0.0.1]
+2024-12-07 06:33:46 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@468be356, started on Sat Dec 07 06:33:44 KST 2024
+2024-12-07 06:35:22 [Test worker] INFO  com.example.demo.TaskControllerTest - Starting TaskControllerTest using Java 17.0.12 with PID 948 (started by Administrator in C:\Users\Administrator\Desktop\clush_back)
+2024-12-07 06:35:22 [Test worker] INFO  com.example.demo.TaskControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 06:35:22 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@468be356
+2024-12-07 06:35:23 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 06:35:23 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 06:35:24 [Test worker] INFO  com.example.demo.TaskControllerTest - Started TaskControllerTest in 2.043 seconds (process running for 2.808)
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=127.0.0.1]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Completed Task 1, priority=High, completed=true), Task(id=2, name=Completed Task 2, (truncated)...]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=127.0.0.1]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=127.0.0.1]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Task 1, priority=High, completed=true)]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=127.0.0.1, payload=true]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=127.0.0.1]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=New Task, priority=Low, completed=false)]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=null, name=New Task, priority=Low, completed=false)]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=127.0.0.1, payload={"id":null,"name":"New Task","priority":"Low","completed":false}]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [DELETE /api/tasks/1, client=127.0.0.1]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [DELETE /api/tasks/1, client=127.0.0.1]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=127.0.0.1]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Task 1, priority=High, completed=false), Task(id=2, name=Task 2, priority=Medium, c (truncated)...]
+2024-12-07 06:35:24 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=127.0.0.1]
+2024-12-07 06:35:24 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@468be356, started on Sat Dec 07 06:35:22 KST 2024
+2024-12-07 06:39:30 [Test worker] INFO  com.example.demo.TaskControllerTest - Starting TaskControllerTest using Java 17.0.12 with PID 9760 (started by Administrator in C:\Users\Administrator\Desktop\clush_back)
+2024-12-07 06:39:30 [Test worker] INFO  com.example.demo.TaskControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 06:39:30 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@468be356
+2024-12-07 06:39:31 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 06:39:32 [Test worker] INFO  com.example.demo.TaskControllerTest - Started TaskControllerTest in 2.013 seconds (process running for 2.755)
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks/completed, client=127.0.0.1]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getCompletedTasks()
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Completed Task 1, priority=High, completed=true), Task(id=2, name=Completed Task 2, (truncated)...]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks/completed, client=127.0.0.1]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [PUT /api/tasks/1/complete, client=127.0.0.1]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#completeTask(Long, boolean)
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [true]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=1, name=Task 1, priority=High, completed=true)]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [PUT /api/tasks/1/complete, client=127.0.0.1, payload=true]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [POST /api/tasks, client=127.0.0.1]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#createTask(Task)
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Task(id=null, name=New Task, priority=Low, completed=false)]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Task(id=null, name=New Task, priority=Low, completed=false)]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [POST /api/tasks, client=127.0.0.1, payload={"id":null,"name":"New Task","priority":"Low","completed":false}]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [DELETE /api/tasks/1, client=127.0.0.1]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#deleteTask(Long)
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [DELETE /api/tasks/1, client=127.0.0.1]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Before request [GET /api/tasks, client=127.0.0.1]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.TaskController#getTasks()
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Task(id=1, name=Task 1, priority=High, completed=false), Task(id=2, name=Task 2, priority=Medium, c (truncated)...]
+2024-12-07 06:39:32 [Test worker] DEBUG o.s.w.f.CommonsRequestLoggingFilter - After request [GET /api/tasks, client=127.0.0.1]
+2024-12-07 06:39:32 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@468be356, started on Sat Dec 07 06:39:30 KST 2024
