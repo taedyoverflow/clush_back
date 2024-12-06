@@ -77,22 +77,35 @@ INSERT INTO task (name, priority, completed) VALUES ('Clush 프론트엔드 과�
 INSERT INTO task (name, priority, completed) VALUES ('Clush 백엔드 과제 제출', 'High', TRUE);
 INSERT INTO task (name, priority, completed) VALUES ('다이어트', 'Low', FALSE);
 
-3. 주력으로 사용한 라이브러리에 대한 설명 및 사용 이유
-Spring Boot Starter Web:
-RESTful API 개발에 필요한 기본 기능 제공.
-Spring Boot Starter Data JPA:
-데이터베이스와의 통합 및 CRUD 작업 간소화.
-Lombok:
-반복적인 Getter, Setter 및 Constructor 생성을 줄여 코드 가독성 향상.
-SpringDoc OpenAPI(Swagger UI):
-API 명세를 자동으로 생성하고, 테스트할 수 있는 UI 제공.
-Spring Boot Starter Test:
-JUnit 및 Mockito를 사용한 단위 테스트 및 통합 테스트 지원.
-4. API 명세
+## 3. 주력으로 사용한 라이브러리에 대한 설명 및 사용 이유
+
+1. **Spring Boot Starter Web**  
+   RESTful API 개발에 필요한 기본 기능 제공.
+
+2. **Spring Boot Starter Data JPA**  
+   데이터베이스와의 통합 및 CRUD 작업 간소화.
+
+3. **Lombok**  
+   반복적인 Getter, Setter 및 Constructor 생성을 줄여 코드 가독성 향상.
+
+4. **SpringDoc OpenAPI (Swagger UI)**  
+   API 명세를 자동으로 생성하고, 테스트할 수 있는 UI 제공.
+
+5. **Spring Boot Starter Test**  
+   JUnit 및 Mockito를 사용한 단위 테스트 및 통합 테스트 지원.
+
+---
+
+## 4. API 명세
+
 Swagger UI를 통해 API 명세를 확인할 수 있습니다:
 
-주소: http://localhost:8080/swagger-ui.html
-API 스크린샷
+- **주소**: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+### API 스크린샷
+![Swagger UI](./swagger.png)
+
+---
 
 5. 테스트 케이스 작성 및 결과
 테스트 환경
